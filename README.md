@@ -1,16 +1,15 @@
 # chat_app
 
-A new Flutter project.
+This is a Chat Application where all the people can chat with one another at the same time on same platform.
+Only Logged In users gets to see messages, usernames and User images of other users.
 
-## Getting Started
+![SignUp Page](https://github.com/Srnshj30/Multi-Chat/assets/102829760/c886a7f1-392b-461a-9375-9d0e2eca328a)
 
-This project is a starting point for a Flutter application.
+![SignUp Page Loading](https://github.com/Srnshj30/Multi-Chat/assets/102829760/4634a356-96fd-46f9-90fd-c433497b7f7e)
 
-A few resources to get you started if this is your first Flutter project:
+![Login Page](https://github.com/Srnshj30/Multi-Chat/assets/102829760/c64cb6b5-c149-454f-8078-c3fcccd14467)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![Logged In as User 'Sj30'](https://github.com/Srnshj30/Multi-Chat/assets/102829760/ec44c8cf-4e85-4742-886a-2dc8dcf20caf)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Logged In as User 'Saransh'](https://github.com/Srnshj30/Multi-Chat/assets/102829760/af98b93e-ae65-40fd-9d58-c292d48ee2f0)
+
