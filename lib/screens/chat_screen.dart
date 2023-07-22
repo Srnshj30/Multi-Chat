@@ -12,6 +12,7 @@ class ChatScreen extends StatefulWidget {
 }
 
 class _ChatScreenState extends State<ChatScreen> {
+  //Request for Notification Permission
   void setPushNotifications() async {
     final fcm = FirebaseMessaging.instance;
 
@@ -43,7 +44,6 @@ class _ChatScreenState extends State<ChatScreen> {
       ),
       body: const Column(
         children: [
-          // Text('Nothing there...'),
           Expanded(
             child: ChatMessage(),
           ),

@@ -2,7 +2,6 @@ import 'dart:io';
 
 import 'package:chat_app/widget/user_image_picker.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-// import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -170,11 +169,13 @@ class _AuthScreenState extends State<AuthScreen> {
                           ),
                           if (_isAuthenticating)
                             const CircularProgressIndicator(),
+                          //Login or Sign Up Button
                           if (!_isAuthenticating)
                             ElevatedButton(
                               onPressed: _submit,
                               child: Text(_isLogin ? 'Login' : 'Sign Up'),
                             ),
+                          //Button to change Login or Sign Up mode
                           if (!_isAuthenticating)
                             TextButton(
                               onPressed: () {
